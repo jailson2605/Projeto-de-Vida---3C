@@ -1,3 +1,4 @@
+
 :root{
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
@@ -43,4 +44,8 @@ body{
     align-items: center;
     width: 100%
     ;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 4px solid var(--botao-ativo);
+    border-right: 4px solid var(--botao-ativo);
+    border-top:none;
 }
